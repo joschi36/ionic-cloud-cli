@@ -1,6 +1,6 @@
 FROM node:7-slim
 
-RUN apt-get update && apt-get install -y python build-essentials
+RUN apt-get update && apt-get install -y python build-essential
 RUN npm install -g cordova
 RUN npm install -g ionic
 

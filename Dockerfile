@@ -1,6 +1,6 @@
 FROM node:7-alpine
 
-RUN apt-get update && apt-get install python2 -y
+RUN apk add --update --no-cache python2
 RUN npm install -g cordova
 RUN npm install -g ionic
 
